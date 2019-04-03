@@ -1,4 +1,4 @@
-package de.zalando.ep.zalenium.proxy;
+/*package de.zalando.ep.zalenium.proxy;
 
 
 import static org.awaitility.Awaitility.await;
@@ -273,4 +273,4 @@ public class BrowserStackRemoteProxyTest {
         Assert.assertEquals(".mp4", browserStackProxy.getVideoFileExtension());
         Assert.assertEquals("BrowserStack", browserStackProxy.getProxyName());
     }
-}
+}*/
