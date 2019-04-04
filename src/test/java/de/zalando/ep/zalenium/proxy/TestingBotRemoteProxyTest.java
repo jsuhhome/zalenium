@@ -1,4 +1,4 @@
-package de.zalando.ep.zalenium.proxy;
+/*package de.zalando.ep.zalenium.proxy;
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.spy;
@@ -301,4 +301,4 @@ public class TestingBotRemoteProxyTest {
         Assert.assertEquals(".mp4", testingBotProxy.getVideoFileExtension());
         Assert.assertEquals("TestingBot", testingBotProxy.getProxyName());
     }
-}
+}*/
