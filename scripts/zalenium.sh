@@ -465,7 +465,9 @@ StartUp()
         LOGBACK_APPENDER=JSON
     fi
 
-    java ${ZALENIUM_EXTRA_JVM_PARAMS} -Dlogback.loglevel=${DEBUG_MODE} \
+    java ${ZALENIUM_EXTRA_JVM_PARAMS} \
+    -agentlib:jdwp=transport=dt_socket,suspend=n,server=n,address=localhost:9999 \
+    -Dlogback.loglevel=${DEBUG_MODE} \
     -Dlogback.appender=${LOGBACK_APPENDER} \
     -Dlogback.configurationFile=${LOGBACK_PATH} \
     -Djava.util.logging.config.file=logging_${DEBUG_MODE}.properties \
